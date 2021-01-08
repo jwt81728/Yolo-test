@@ -1,0 +1,4 @@
+darknet.exe detector train "C:\Users\202009-DA02004\Desktop\yolo\darknet\build\darknet\x64\data\ceb.data" "C:\Users\202009-DA02004\Desktop\yolo\darknet\build\darknet\x64\cfg/yolov4-tiny-wow.cfg" yolov4-tiny.conv.29
+
+
+darknet.exe detector train "C:\Users\202009-DA02004\Desktop\yolo\darknet\build\darknet\x64\data\ceb.data" "C:\Users\202009-DA02004\Desktop\yolo\darknet\build\darknet\x64\cfg/yolov4-tiny-wow.cfg"  C:\Users\202009-DA02004\Desktop\yolo\darknet\build\darknet\x64\backup/yolov4-tiny-wow_1.weights

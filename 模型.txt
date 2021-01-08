@@ -1,0 +1,29 @@
+https://github.com/AlexeyAB/darknet/releases/download/darknet_yolo_v3_optimal/yolov4.weights
+
+
+https://pjreddie.com/media/files/yolov3.weights
+
+https://drive.google.com/u/0/uc?id=1cewMfusmPjYWbrnuJRuKhPMwRe_b9PaT&export=download
+
+
+
+./darknet detector demo cfg/coco.data cfg/yolov4.cfg yolov4.weights http://192.168.31.5:8080/video?dummy=param.mjpg -i 0
+
+darknet.exe detector test cfg\coco.data cfg\yolov4.cfg yolov4.weights data\dog.jpg
+
+
+darknet detector demo cfg/coco.data cfg/yolov3.cfg yolov3.weights -c 0
+
+
+darknet.exe detector demo cfg/coco.data cfg/yolov4-tiny.cfg yolov4-tiny.weights -c 0
+yolov4-tiny
+darknet.exe detector demo cfg\coco.data cfg\yolov4-tiny.cfg yolov4-tiny.weights data\mp4.mp4
+
+darknet.exe detector demo cfg/ceb.data cfg/yolov4-tiny-wow.cfg yolov4-tiny-wow_last.weights -c 0
+
+darknet.exe detector test cfg/ceb.data C:\Users\202009-DA02004\Desktop\yolo\darknet\build\darknet\x64\cfg/yolov4-tiny-wow.cfg C:\Users\202009-DA02004\Desktop\yolo\darknet\build\darknet\x64\backup/yolov4-tiny-wow_last.weights C:\Users\202009-DA02004\Desktop\yolo\darknet\build\darknet\x64\data/11.jpg
+
+
+darknet.exe detector test cfg\ceb.data cfg/yolov4-tiny.cfg yolov4-tiny.weights data\dog.jpg
+
+darknet.exe detector demo cfg/ceb.data C:\Users\202009-DA02004\Desktop\yolo\darknet\build\darknet\x64\cfg/yolov4-tiny-wow.cfg C:\Users\202009-DA02004\Desktop\yolo\darknet\build\darknet\x64\backup/yolov4-tiny-wow_last.weights -c 0
